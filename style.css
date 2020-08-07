@@ -1,0 +1,362 @@
+/*Theme Name:Doob - Simple Agency PSD Template
+/* Designer: Abdul Hadi
+/* Github : @abdulhadicse
+/* LinkedIn : @abdulhadicse
+*/
+
+html, body{
+    background: #fff;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px !important;
+    padding: 0px !important;
+    overflow-x: hidden !important;
+}
+
+*{
+    text-decoration: none !important;
+}
+
+/*Navigation CSS*/
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    background: #fff;
+    box-shadow: 0px 19px 38px rgba(0,0,0,.10);
+    height: 80px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.logo h1{
+    color: #314584;
+}
+
+.navlinks a{
+    margin-right: 20px;
+    color: #314584;
+    font-weight: 500;
+}
+
+/*Main Section CSS*/
+
+.mainSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 650px;
+    padding: 0px 90px 0px 90px;
+    background-image: url('assets/img/mainbackground.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.mainlogo img{
+    width: 400px;
+}
+
+.mainText{
+    width: 45%;
+}
+
+.mainText h1{
+    font-size: 60px;
+    color: #314584;
+    font-weight: 600;
+}
+
+.button{
+    margin-top: 50px;
+}
+
+#btn_one, #Btn{
+    color: #fff;
+    background: #ff4359;
+    width: 40px;
+    border-radius: 80px;
+    padding: 15px 20px;
+    margin-right: 20px;
+        
+}
+
+#btn_two{
+    color: #314584;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.serviceCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    padding: 0px 90px 0px 90px;
+}
+.serviceText{
+    width: 40%;
+    padding: 40px;
+    box-sizing: border-box;  
+    padding-left: 0px;
+}
+.serviceText h2{
+    font-size: 30px;
+    color: #314584;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#Btn{
+    color: #fff;
+    background: #ff4359;
+    width: 40px;
+    border-radius: 80px;
+    padding: 8px 12px;
+    font-size: 14px;     
+}
+
+.card{
+    padding: 20px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.10);
+    margin-right: 20px;
+    height: 270px;
+    width: 350px;
+    
+}
+
+.card h2{
+    font-size: 30px;
+    color: #314584;
+    font-weight: 600;  
+}
+
+.card p{
+    opacity: .8;  
+    text-align: justify;
+}
+
+/*About css*/
+
+.aboutSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 90px 0px 90px;
+    height: 500px;
+    background-image: url('assets/img/about-right-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.aboutImg img{
+    width: 400px;
+    margin-right: 100px;
+}
+.aboutTextSection{
+    width: 50%;
+}
+.aboutText h3{
+    font-size: 15px;
+    color: crimson;
+    font-weight: 600;
+}
+
+.aboutText h2{
+    font-size: 30px;
+    color: #314584;
+    font-weight: 600;  
+}
+
+.aboutText p{
+    opacity: .8;
+    text-align: justify;
+    width: 70%;
+}
+
+#icon_one{
+    width: 10px;
+}
+
+#icon_two{
+    width: 20px;
+}
+
+#aboutSec{
+    background-image: url('assets/img/about-left-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+
+.portfolio{
+    background-image: url('assets/img/portfolioImage.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    height: 800px;
+}
+
+.portfolioSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 90px 0px 90px;
+}
+
+.portText {
+    width: 30%;
+}
+
+.portText h1{
+    font-size: 30px;
+    color: #314584;
+    font-weight: 600; 
+}
+
+.project{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 90px 0px 90px;
+    grid-gap: 10px;
+}
+
+.project img{
+    width: 350px;
+}
+
+.project p{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    font-size: 16px;
+    color: crimson;
+    font-weight: 600;
+}
+
+.blogSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 90px 0px 90px;
+}
+.blog{
+    height: 500px;
+}
+.blogSection h3{
+    font-size: 15px;
+    color: crimson;
+    font-weight: 600; 
+}
+
+.blogSection h1{
+    font-size: 30px;
+    color: #314584;
+    font-weight: 600; 
+}
+
+.blogCard{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 90px 0px 90px;
+    grid-gap: 10px;
+}
+
+.bcard{
+    padding: 20px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.10);
+    height: 220px;
+    width: 270px;
+    position: relative;
+    transition: .5s;
+}
+
+.bcard h2{
+    font-size: 15px;
+    color: #314584;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.bcard h5{
+    font-size: 12px;
+    color: #314584;
+    font-weight: 600;
+    
+}
+.bcard a{
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+    
+}
+.bcard a img{
+    width: 20px;
+    
+}
+
+.bcard p{
+    opacity: .7; 
+    color: #314584;
+    text-align: justify;
+}
+
+.bcard:hover{
+    background: #ff3946;
+}
+
+.bcard:hover h2,.bcard:hover h5,.bcard:hover p {
+    color: aliceblue;
+    opacity: 1;
+}
+
+/*footer css*/
+
+.footer{
+    height: 180px;
+    background: #314584;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 90px 0px 90px;
+    text-align: center;
+}
+
+.footerText h3{
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.footerText h2{
+    font-size: 30px;
+    color: #ff3946;
+    font-weight: 600;
+}
+
+.footerlinks a{
+    color: aliceblue;
+    margin-right: 10px;
+}
+
+.copyrights p{
+    color: aliceblue;
+    margin-bottom: 0px;
+}
